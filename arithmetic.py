@@ -38,5 +38,3 @@ def arithmetic_formatter(problems, answer=False):
             final_answers.append(result.rjust(max_length))
         output += '\n' + '    '.join(final_answers)
     return output
-
-print(arithmetic_formatter(["32 + 8", "1 - 3801", "9999 + 9999", "531 + 56", "12 + 24"], True))
